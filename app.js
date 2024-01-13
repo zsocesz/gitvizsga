@@ -96,3 +96,10 @@ prevBtn.addEventListener("click", prevSong);
 audio.addEventListener("ended", nextSong);
 
 
+//Vizsgafeladat módosítás - consoleba kiíratás betöltődéskor 
+
+window.addEventListener("load", () => {
+    console.log("Az oldal betöltődött")
+});
+
+

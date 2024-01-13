@@ -16,6 +16,7 @@ git branch console - létrehozom a console mellékágat
 
 git checkout console - átlépek a console mellékágba, ezentúl itt mentem el a változtatásokat, nem a 'main' főágon
 
+git push --set-upstream origin console - a main ág helyett a console ágat töltöm a repoba
 
 clear - törlöm a git bashből az eddigi parancsokat, jobban átlátható lesz a továbbiakban
 
